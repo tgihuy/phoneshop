@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+    padding    : 0;
+    margin     : 0;
+    box-sizing : border-box;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+#header {
+    width         : 100%;
+    padding-top   : 25px;
+    padding-bottom: 25px;
+
+    display         : flex;
+    justify-content : space-evenly;
+    align-items     : center;
+    background-color: #e4b8b8;
+}
+
+
+#actions {
+    display: flex;
+}
+
+#actions .item {
+    margin-left: 22px;
+}
+
+
+.to-bottom {
+    position : absolute;
+    bottom   : -40px;
+    left     : 50%;
+    transform: translateX(-50%);
+}
+
+
+body {
+    display       : flex;
+    flex-direction: column;
+}
+
+#footer {
+    width     : 100%;
+    background: #e4b8b8;
+    height    : fit-content;
+
+    padding        : 0px 63px;
+    padding-top    : 57px;
+    display        : flex;
+    justify-content: space-around;
+
+    position: relative;
+    bottom  : 0;
+
+}
+
+#footer .box {
+    width: 250px;
+    color: #fff;
+}
+
+#footer .box .quick-menu {
+    margin-top: 40px;
+
+}
+
+
+#footer .box .quick-menu .item {
+    margin-bottom: 12px;
+
+}
+
+#footer .box .quick-menu,
+.item a {
+    color          : #fff;
+    text-decoration: none;
+}
+
+
+
+#footer .box form input {
+    width       : 294px;
+    height      : 42px;
+    background  : transparent;
+    padding-left: 20px;
+    color       : #fff;
+    margin-top  : 30px;
+}
+
+#footer .box form button {
+    background: #fdc5c8;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0.25);
+    width     : 163px;
+    height    : 38px;
+    margin-top: 29px;
+    color     : #fff;
+}
+* {
+    font-family   : "Open Sans", sans-serif;
+    letter-spacing: 1px;
+}
+
+.container {
+    margin-top    : 50px;
+    margin-right  : auto;
+    margin-left   : auto;
+    width         : fit-content;
+    display       : flex;
+    flex-direction: row;
+
+}
+
+.row {
+    display       : flex;
+    flex-direction: column;
+    height        : fit-content;
+    width         : 300px;
+    margin-right  : 10px
+}
+
+.sidebar-title {
+    font-size          : 18px;
+    text-transform     : uppercase;
+    margin-bottom      : 30px;
+    font-weight        : 700;
+    padding-bottom     : 15px;
+    border-bottom      : 2px solid #dee2e6;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(222, 226, 230);
+    position           : relative;
+}
+
+
+
+.line-container::after {
+    content         : '';
+    position        : absolute;
+    top             : 40px;
+    left            : 0;
+    width           : 30%;
+    height          : 4px;
+    background-color: rgb(177, 147, 97);
+    transform       : translateY(-50%);
+    z-index         : 1;
+
+}
+
+
+
+.default-search-style-input-box {
+
+    height          : 50px;
+    padding-left    : 20px;
+    padding-right   : 80px;
+    border-radius   : 5px;
+    font-size       : 16px;
+    box-shadow      : none;
+    border          : 1px solid #dee2e6;
+    border-top-color: rgb(222, 226, 230);
+
+
+}
+
+.sidebar-menu li {
+    margin-bottom: 14px;
+    width        : 270px;
+    list-style   : none;
+
+}
+
+.sidebar-menu li a {
+    color          : black;
+    text-decoration: none;
+    font-weight    : 700;
+    font-family    : "Open Sans", sans-serif;
+    font-size      : 14px;
+    line-height    : 1.75;
+
+
+
+}
+
+.sidebar-single-widget {
+    width        : 250px;
+    margin-bottom: 50px;
+}
+
+.tag-link a {
+    display        : inline-block;
+    padding        : 10px 18px;
+    border         : 1px solid #ebebeb;
+    margin-bottom  : 10px;
+    margin-left    : 5px;
+    border-radius  : 30px;
+    font-weight    : 600;
+    color          : #777;
+    text-decoration: none;
+    font-size      : 14px;
+    font-family    : "Open Sans", sans-serif;
+
+}
+
+.sidebar-menu li a:hover {
+    color: #b19361;
+}
+
+a:hover {
+    color: #b19361;
+}
+
+#men-fashion {
+    margin-top: 20px;
+}
+
+.blog-list {
+
+    width      : 900px;
+    height     : fit-content;
+    margin-left: 15px;
+
+    display       : flex;
+    flex-direction: row;
+    flex-wrap     : wrap;
+    padding       : 10px;
+
+}
+
+.blog {
+    width         : 30%;
+    padding       : 10px;
+    display       : flex;
+    flex-direction: column;
+    border        : 0.5px rgb(226, 224, 224) solid;
+    border-radius : 10px;
+    margin        : 10px;
+
+
+}
+
+.blog img {
+    width: 100%;
+}
+
+.blog .content ul.post-meta {
+    display: block;
+    height : 20px;
+
+}
+
+.blog .content ul.post-meta li {
+    list-style  : none;
+    float       : left;
+    height      : 20px;
+    font-size   : 12px;
+    margin-right: 10px;
+    margin-left : 10px;
+
+}
+
+.post-meta li::after {
+    position: relative;
+    content : "/";
+    right   : calc(0% - 10px);
+}
+
+.blog .blog-title {
+    font-size  : 20px;
+    line-height: 2;
+    font-weight: 600;
+    color      : #24262b;
+    margin-top : 30px;
+
+
+}
+
+.blog .content p.info {
+
+    margin-bottom: 16px;
+    font-family  : "Open Sans", sans-serif;
+    font-size    : 14px;
+    font-weight  : 400;
+    font-style   : normal;
+    line-height  : 1.75;
+    position     : relative;
+    visibility   : visible;
+    color        : #777;
+
+
+}
+
+.blog .content a {
+    text-decoration: none;
+    color          : black;
+    text-transform : uppercase;
+    font-weight    : 700;
+    font-size      : 14px;
+    letter-spacing : 1px;
+    display        : flex;
+    flex-direction : row;
+    justify-content: flex-start;
+    align-items    : center;
+
+}
+
+.blog .content a img {
+    width      : 20px;
+    margin-left: 10px;
+
+}
+
+.sidebar-content {
+    display       : flex;
+    flex-direction: column;
+    height        : fit-content;
+}
+
+.sidebar-content .tag-link {
+    display       : flex;
+    flex-direction: column;
+
+
+    padding-left : 10px;
+    padding-top  : 10px;
+    border-bottom: 1px solid rgb(181, 180, 180);
+}
+
+.sidebar-content .tag-link img {
+    width: 200px;
+
+}
+
+.sidebar-content .tag-link .title {
+
+    font-family: "Open Sans", sans-serif;
+    font-size  : 20px;
+    line-height: 2.2;
+    font-weight: 600;
+    font-style : normal;
+    width      : 200px;
+
+}
+
+.sidebar-content .tag-link a {
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+}
+
+.sidebar-content .tag-link a img {
+    width         : 20px;
+    padding-bottom: 0px;
+}
+
+.sidebar-content .tag-link .decription {
+    font-size  : 11px;
+    font-weight: 400px;
+    margin     : 10px 0px 10px 0px;
+
+
+}
+
+.blog-details{
+    text-align: center;
+}
+
+.pagination{
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.pagination a{
+    border: 1px #24262b solid;
+    text-decoration: none;
+    padding: 10px;
+    line-height: 40px;
+    height: 40px;
+    border: 1px solid #d5d5d5;
+    background: #fff;
+    color: #24262b;
+    border-radius: 3px;
+    font-weight: 500;
+}
+
+.product-info .title {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 5px;
+}
+
+.product-info .title a{
+    padding: auto;  
+}
+
+.container-right{
+    display: flex;
+    justify-content:flex-start;
+    flex-direction: column;
+}
+a.current-page{
+    background-color: pink;
+    color: white;
+}
+
+.pagination a:hover{
+    background-color: pink;
+    color: white;
+}
+
+.submit-button {
+            width: 50px; 
+            height: 25px; 
+            border-radius: 15px; 
+            background-color: #dd9393; 
+            color: #fff; 
+            border: 2px solid #db8e8e;
+            cursor: pointer;
+        }

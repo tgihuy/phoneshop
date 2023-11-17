@@ -1,0 +1,153 @@
+.payment {
+    width:90%;
+    margin: auto;
+}
+
+.payment-content {
+    margin-top: 20px;
+    display: flex;
+}
+
+.information div p{
+    margin-bottom: 0px;
+}
+
+/*.information div{
+    margin-bottom: 10px;
+}*/
+
+.review-order{
+    padding: 20px 50px;
+    border: 1px solid black;
+    margin-left: 3%;
+    width: 43%;
+}
+
+.order {
+  border-collapse: collapse;
+}
+
+.order {
+    width: 100%;
+}
+
+thead {
+    background-color: #eeb9b9;
+}
+
+.continue input:hover {
+    color: white;
+    background-color: #f2dede;
+}
+
+.order th,
+.order td{
+    text-align: center; 
+}
+
+span {
+    color:red;
+}
+
+.order th,
+.order td {
+  border: none;
+  padding: 8px;
+}
+
+
+.information {
+    background-color: #f2dede;
+    padding: 20px 50px;
+    border: 1px solid black;
+    margin-left: 12%;
+}
+
+.continue {
+    margin-top: 50px;
+    margin-left: 37%;
+}
+
+.continue a{
+    color:black;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f2dede;
+    border-radius: 4px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.continue a:hover{
+    text-decoration: none;
+    color: white;
+    background-color: #f2dede;
+}
+
+.name,
+.phonenum,
+.address,
+.email,
+textarea{
+    width:100%;
+}
+
+.continue input{
+    margin-left: 50px;
+    color:black;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f2dede;
+    border-radius: 4px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.input-group {
+    width:95%;
+}
+
+.error input {
+    border:3px red solid;
+}
+
+.success input {
+    border:3px green solid;
+}
+
+/*.input-group i {
+     position:absolute;
+     right:10px;
+     top:35px;
+     visibility: hidden;
+ }*/
+
+
+ .success i.fa-check-circle{
+     visibility: visible;
+     color:green;
+ }
+
+ .error i.fa-exclamation-circle {
+    visibility: visible;
+    color:red;
+}
+
+
+ .input-group p {
+     font-size: 15px;
+     color:red;
+     visibility: hidden;
+ }
+/* 
+ .input-group {
+    position:relative;
+}*/
+ 
+ .error p {
+     visibility: visible;
+ }

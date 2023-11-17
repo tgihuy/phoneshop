@@ -1,0 +1,44 @@
+.thank {
+    height: 70px;
+    font-family: "Roboto", Arial, sans-serif; 
+    font-size: 36px; 
+    font-weight: bold; 
+    color: #333; 
+    text-align: center; 
+    text-transform: uppercase; 
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.order {
+  border-collapse: collapse;
+}
+
+.order {
+    margin: auto;
+    width: 80%;
+}
+
+thead {
+    background-color: #e9b7b7;
+}
+
+.order th,
+.order td{
+    text-align: center; 
+}
+
+.order th,
+.order td {
+  border: none;
+  padding: 8px;
+}
+
+td img {
+    height: 200px;
+    width: 200px;
+}
+
+h3{
+    margin-left: 145px;
+}

@@ -1,0 +1,137 @@
+.tool select {
+    margin-left: 38%;
+}
+
+.tool form input:first-child {
+    width:300px;
+}
+
+.tool{
+    margin-left:10%;
+    margin-bottom: 5px;
+    display:flex;
+}
+
+.title ,
+.order-content{
+    width:80%;
+    margin: auto;
+    background-color: pink;
+    box-shadow: 0 5px 4px rgba(0, 0, 0, 0.2);
+    display:flex;
+    margin-bottom: 20px;
+}
+
+.title h4:first-child{
+    margin-left: 13%;
+}
+
+.title h4{
+    margin-left: 11%;
+}
+
+.order-content a img {
+    height: 30px;
+    width: 30px;
+}
+
+.order-content a {
+    position: absolute;
+    right:3%;
+    top:6px;
+}
+
+.order-content {
+    background-color: #f1f1f1;
+    box-shadow: 0 5px 4px rgba(0, 0, 0, 0.2);
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.order-info {
+    width:100%;
+    display:flex;
+}
+
+.order-info h4:first-child {
+    margin-left: 5%;
+}
+
+.order-info h4:nth-child(2){
+    position: absolute;
+    left:14%;
+}
+
+.order-info h4:nth-child(3){
+    position: absolute;
+    left:39%;
+}
+
+.order-info h4:nth-child(4){
+    position: absolute;
+    left:56%;
+}
+
+.order-info h4:nth-child(5){
+    position: absolute;
+    left:70%;
+}
+
+.order-info h4:last-child {
+    position: absolute;
+    left:85%;
+        
+}
+
+#viewMoreBtn:hover {
+    background-color: rgb(255, 253, 208);
+}
+
+#viewMoreBtn {
+    margin-left:47%;
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: #cfc5c5;
+    box-shadow: 0 5px 4px rgba(0, 0, 0, 0.2);
+    color: #100303;
+    font-size: 16px;
+}
+
+ .Orders{
+    margin:auto;
+    width: 80%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .line {
+    flex-grow: 1;
+    height: 1px;
+    background-color: rgb(206, 202, 202);
+    margin-left: 10px;
+  }
+  
+  .orderStatus {
+      box-shadow: 0 5px 4px rgba(0, 0, 0, 0.2);
+      display: flex;
+      justify-content: space-around;
+      margin:auto;
+      width: 80%;
+      height: 40px;
+      background-color: pink;
+      margin-bottom: 5px;
+      
+  }
+  
+  .orderStatus a{
+      color: black;
+      text-decoration: none;
+  }
+  
+  .orderStatus a:hover {
+      color: gainsboro;
+      text-decoration: none;
+  }
+
+
